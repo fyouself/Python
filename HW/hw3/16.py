@@ -20,8 +20,8 @@ countx = 0
 list = list()
 for i in range(n):
     list.append(random.randint(0,10))
-    if list[i] == x: countx  += 1
+    # if list[i] == x: countx  += 1
 
 print(list)
-print (f" Число {x} встречается = {countx} раз")
+print (f" Число {x} встречается = {list.count(x)} раз")
 
